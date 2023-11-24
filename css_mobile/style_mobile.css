@@ -1,0 +1,191 @@
+/* Your styles here */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;700&display=swap");
+
+html {
+  width: 100%;
+  min-width: 300px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  color: #25a2c3;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+}
+
+header img {
+  width: 150px;
+  padding-top: 1.2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section_1 {
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#section_1 button {
+  background-color: #f04c2f;
+  border: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5%;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 1.2em;
+  padding-top: 1.2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+#section_1 h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1.3em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-bottom: 1.5vh;
+}
+
+#section_1 p {
+  text-align: center;
+  padding-left: 2.2em;
+  padding-right: 2.2em;
+}
+
+#section_2 #div_1 {
+  margin-top: 3em;
+}
+
+#section_2 h3 {
+  margin-bottom: 1em;
+}
+
+.div_general {
+  margin-top: 1.5em;
+}
+
+#prima_immag img {
+  border-radius: 50%;
+  margin: 1em 0;
+}
+
+#recens {
+  background-color: #e22d0e;
+  margin-bottom: 3.5em;
+}
+#recens h2 {
+  color: white;
+  font-size: 3.5vh;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+#recens p {
+  color: white;
+}
+
+#recens #p_rece {
+  font-style: italic;
+  font-size: 2vh;
+  padding: 0 3em;
+  margin-bottom: 1em;
+}
+
+#recens_2 #p_rec2 {
+  font-size: 2vh;
+  padding-top: 0.5em;
+}
+#recens_2 #p_rec3 {
+  font-size: 1.3vh;
+  padding-bottom: 3em;
+}
+
+#last_in_div_general {
+  margin-bottom: 3.5em;
+}
+
+.div_quadrati img {
+  width: 100%;
+}
+
+.div_quadrati {
+  border: 1px solid #dee1e3;
+  margin-bottom: 2em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div_quadrati h5 {
+  padding-top: 0.9em;
+  padding-bottom: 0.7em;
+}
+
+.div_quadrati p {
+  padding-bottom: 1.8em;
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+}
+
+footer {
+  background-color: #25a2c3;
+  padding-bottom: 4em;
+}
+
+footer h1 {
+  color: white;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+footer ul {
+  list-style: none;
+  color: #c8e7f0;
+  margin-bottom: 1.5em;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer p {
+  color: #c8e7f0;
+  margin-top: 1.5em;
+}
+
+hr {
+  width: 50%;
+}
+
+i {
+  margin-right: 1vh;
+}
